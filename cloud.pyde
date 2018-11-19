@@ -1,14 +1,15 @@
 '''
-Draw a bullseye in the centre of the screen
+Draw three clouds in the centre of the screen
 '''
 
 def setup():
     size(640, 360)
-    background(51)
+    background("#6b89ba")
     noStroke()
     noLoop()
     
 def draw():
+    
     drawCloud("#e6e9ef", 100, 300)
     drawCloud("#9ca5b7", 400, 200)
     drawCloud("##c4c7ce", width/2, height/2)
